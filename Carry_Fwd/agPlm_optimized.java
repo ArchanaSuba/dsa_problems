@@ -3,7 +3,7 @@ package Carry_Fwd;
 import java.util.Scanner;
 
 public class agPlm_optimized {
-    public static void findagPair(String str){
+    public static void findagPairs(String str){
         int n = str.length();
         int count =0;
         int ans = 0;
@@ -24,6 +24,6 @@ public class agPlm_optimized {
         System.out.println("Enter the Characters");
         String str = sc.nextLine();
         System.out.println(str);
-        findagPair(str);
+        findagPairs(str);
     }
 }
