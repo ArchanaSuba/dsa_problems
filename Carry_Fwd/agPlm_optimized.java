@@ -17,7 +17,7 @@ public class agPlm_optimized {
                 ans+=count;
             }
         }
-        System.out.println("Total no of AG pairs "+ans);
+        System.out.println("Total no of AG pair "+ans);
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
