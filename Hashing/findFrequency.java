@@ -33,8 +33,9 @@ public class findFrequency {
             }
         }
 
-        System.out.print("Find the frequecy number");
+
         for(int i =0;i<query;i++){
+            System.out.print("Find the frequecy number");
             int findNum = sc.nextInt();
             if(hs.containsKey(findNum)){
                 System.out.println(hs.get(findNum));
